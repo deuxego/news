@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+@import url('./reset.css');
+
+:root{
+  --Ink-Darkest: rgb(9, 10, 10);
+  --Ink-Light: rgb(108, 112, 114);
+
+  --Sky-Lighter: rgb(242, 244, 245);
+
+  --Bg-Light: rgb(242, 244, 245);
+}
+
+body{
+  box-sizing: border-box;
+}
+
+.container{
+  padding: 24px;
+  min-height: 100%;
+}

@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  width: 100%;
+  gap: 12px;
+}
+
+.wrapper{
+  width: 64px;
+  height: 64px;
+  background-color: #f2f4f5;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  color: var(--Ink-Darkest);
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.extra {
+  color: var(--Ink-Light);
+  font-family: 'Oxygen', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}

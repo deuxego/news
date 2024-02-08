@@ -1,0 +1,24 @@
+.header{
+  display: flex;
+  flex-direction: column;
+  padding: 12px 24px;
+  gap: 12px;
+
+  border-bottom: 1px solid var(--Sky-Lighter);
+}
+
+.title {
+  color: var(--Ink-Darkest);
+  font-family: 'Oxygen', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.date {
+  color: var(--Ink-Darkest);
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
