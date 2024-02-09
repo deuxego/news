@@ -1,0 +1,33 @@
+.categories {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+
+  scrollbar-width: none;
+
+  width: 100%;
+
+  white-space: nowrap;
+}
+
+.category,
+.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Oxygen', sans-serif;
+  padding: 8px 16px 8px 16px;
+  border-radius: 32px;
+  border: none;
+  background: var(--Sky-Lighter);
+  cursor: pointer;
+}
+
+.active {
+  background: rgb(231, 231, 255);
+  color: rgb(107, 78, 255);
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
