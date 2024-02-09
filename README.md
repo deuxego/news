@@ -1,1 +1,1 @@
-# News website, made using React
+# News website, made using React, target device for watching website - phone
