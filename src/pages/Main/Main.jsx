@@ -29,7 +29,7 @@ const Main = () => {
   };
 
   const fetchNews = async (currentPage) => {
-    try {
+    try { 
       setIsLoading(true);
       const res = await getNews({
         page_number: currentPage,
