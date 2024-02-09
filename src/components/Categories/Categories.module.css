@@ -8,6 +8,8 @@
   width: 100%;
 
   white-space: nowrap;
+
+  /* max-height: 20px; */
 }
 
 .category,
@@ -26,6 +28,7 @@
 .active {
   background: rgb(231, 231, 255);
   color: rgb(107, 78, 255);
+  cursor: default;
 }
 
 ::-webkit-scrollbar{

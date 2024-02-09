@@ -1,0 +1,8 @@
+.banners {
+  display: grid;
+  width: 100%;
+  gap: 32px;
+
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  box-sizing: border-box;
+}
