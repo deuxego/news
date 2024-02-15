@@ -6,7 +6,6 @@ const App = () => {
   return (
     <>
       <Header />
-      
       <div className="container">
         <Main />
       </div>
