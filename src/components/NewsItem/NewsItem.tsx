@@ -1,7 +1,12 @@
 import { formatTimeAgo } from '../../helpers/formatTimeAgo';
+import { INews } from '../../interfaces';
 import style from './NewsItem.module.css';
 
-const NewsItem = ({ item }) => {
+interface Props {
+  item: INews
+}
+
+const NewsItem = ({ item }: Props) => {
   const { image, title, published, author } = item ?? {};
   
   return (
