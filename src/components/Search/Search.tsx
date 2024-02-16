@@ -1,4 +1,5 @@
 import style from './Search.module.css';
+import { useTheme } from '../../hooks/useTheme';
 
 interface Props {
   keywords: string;
@@ -6,8 +7,10 @@ interface Props {
 }
 
 const Search = ({ keywords, setKeywords }: Props) => {
+  const { isDark } = useTheme();
+
   return (
-    <div className={style.search}>
+    <div className={`${style.search} ${isDark ? style.dark : style.light}`}>
       <input
         className={style.input}
         type="text"
