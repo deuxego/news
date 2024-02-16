@@ -11,7 +11,7 @@ interface Props {
   changeFilters: (key: string, value: string | number | null) => void;
 }
 
-const NewsFilters = ({ filters, changeFilters }: Props) => {
+const NewsFilters = ({ filters, changeFilters}: Props) => {
   const { data: dataCategories } = useFetch<CategoriesApiResponse, null>(getCategories);
 
   return (

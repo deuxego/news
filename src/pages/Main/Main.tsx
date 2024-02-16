@@ -7,7 +7,7 @@ const Main = () => {
     <main className={style.main}>
       <LatestNews />
 
-      <NewsByFilters />
+      <NewsByFilters/>
     </main>
   );
 };
