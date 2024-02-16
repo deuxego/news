@@ -1,7 +1,7 @@
 .header{
   display: flex;
-  flex-direction: column;
   padding: 12px 24px;
+  justify-content: space-between;
   gap: 12px;
 
   border-bottom: 1px solid var(--Sky-Lighter);
@@ -21,4 +21,13 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+}
+
+.dark{
+  background-color: #23272f;
+  border-bottom: 1px solid rgb(60, 60, 60);
+}
+
+.light{
+  background-color: white;
 }
